@@ -43,4 +43,4 @@ def web_search_tool(query: str):
 
         cleaned_chunks.append(cleaned_chunk)
 
-    return cleaned_chunk
+    return cleaned_chunks
