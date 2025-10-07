@@ -124,12 +124,15 @@ job-hunter-agent/
 ## ⚙️ 설정 파일
 
 ### agents.yaml
+
 AI 에이전트들의 역할과 설정을 정의합니다.
 
 ### tasks.yaml
+
 수행할 작업들의 정의와 워크플로우를 설정합니다.
 
 ### knowledge/resume.txt
+
 분석할 이력서 내용을 저장합니다.
 
 ## 🔧 개발 도구
@@ -165,15 +168,17 @@ uv run ruff check .
 ### 일반적인 문제들
 
 1. **Python 버전 오류**
+
    ```bash
    # Python 3.13 이상이 설치되어 있는지 확인
    python --version
-   
+
    # uv로 Python 설치
    uv python install 3.13
    ```
 
 2. **의존성 설치 실패**
+
    ```bash
    # 캐시 정리 후 재설치
    uv cache clean
@@ -211,3 +216,4 @@ uv run ruff check .
 ---
 
 **Happy Job Hunting! 🎯**
+
